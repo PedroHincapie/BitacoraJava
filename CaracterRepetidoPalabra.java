@@ -22,7 +22,8 @@ public class CaracterRepetidoPalabra {
 		for (int x=0;x<palabra.length();x++){
 			int cont = 0;
 			for (int i = 0; i < palabra.length(); i++) {
-				if(palabra.charAt(i) == palabra.charAt(x)){
+				//if(palabra.charAt(i) == palabra.charAt(x)){
+				if( palabra.charAt(x) == palabra.charAt(i)){
 					cont++;
 					contador.put(palabra.charAt(i), cont);
 				}
