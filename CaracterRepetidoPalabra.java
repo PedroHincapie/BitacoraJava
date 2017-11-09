@@ -29,6 +29,7 @@ public class CaracterRepetidoPalabra {
 			}
 
 		}
+		
 		for(Map.Entry m:contador.entrySet()){
 			if("1".equals(m.getValue().toString())){
 				System.err.println("Dato " + m.getKey());
